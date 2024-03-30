@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-ninja"
+	BuildStamp="20240330-0600-Experimental"
+	Name="[NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE0]"
+	Generator="ctest-3.28.1"
+	CompilerName="C:/msys64/mingw64/bin/g++.exe"
+	CompilerVersion="13.2.0"
+	OSName="Windows"
+	Hostname="[NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE0]"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="18599"
+	TotalPhysicalMemory="16167"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2496"
+	>
+	<Testing>
+		<StartDateTime>Mar 30 13:00 [NON-UTF-8-BYTE-0xD2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1711778420</StartTestTime>
+		<TestList/>
+		<EndDateTime>Mar 30 13:00 [NON-UTF-8-BYTE-0xD2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1711778420</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
