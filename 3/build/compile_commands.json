@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/c++/bakarova05/3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\tes.dir\\main.obj -c C:\\c++\\bakarova05\\3\\main.cpp",
+  "file": "C:\\c++\\bakarova05\\3\\main.cpp",
+  "output": "CMakeFiles\\tes.dir\\main.obj"
+}
+]
