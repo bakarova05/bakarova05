@@ -12,16 +12,16 @@ int main() {
     //1
     std:: cout << std:: endl;
 
-    int n = 13, m = -4, p;
-    p = returnPrivate(n, m);
-    std::cout << p << std::endl;
+    int n = 13, m = -4, a;
+    a = returnPrivate(n, m);
+    std::cout << a << std::endl;
     //2
     std:: cout << std:: endl;
 
-    int a = -6;
+    int d=-6;
     double b = 0;
     try{
-        a = fun1(a, b);
+        a = f1(d, b);
     }
     catch(double code){
         std::cout << "Исключение типа double в функции №" << code << std::endl;
@@ -30,8 +30,9 @@ int main() {
         std::cout << "Исключение типа int в функции №"<< code << std::endl;
     }
     catch(...){
-        std::cout << "упс...";
+        std::cout << "...";
     }
-    return 0;
     //3
+    return 0;
+    
 }

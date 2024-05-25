@@ -1,43 +1,48 @@
 #include <iostream>
 #include <cmath>
 #include <bitset>
+#include "returnException.h"
 
-int fun5(int a, double b){
-    a++;
-    return a;
+int f5(int d, double b){
+    d++;
+    return d;
 }
 
-int fun4(int a, double b){
-    if(a == 0){
+int f4(int d, double b){
+    if(d == 0){
         throw 4;
     }
-    b = b / a;
-    a++;
-    a = fun5(a, b);
-    return a;
+    b = b / d;
+    d++;
+    d = f5(d, b);
+    return d;
 }
 
-int fun3(int a, double b){
+int f3(int d, double b){
     if(b == 0){
         throw 3.0; 
     }
-    if(a == 0){
+    if(d == 0){
         throw 3;
     }
-    b = b / a;
-    a++;
-    a = fun4(a, b);
-    return a;
+    b = b / d;
+    d++;
+    d = f4(d, b);
+    return d;
 }
 
-int fun2(int a, double b){
-    a++;
-    a = fun3(a, b);
-    return a;
+int f1(int d, double b)
+{
+    return 0;
+}
+int fun2(int d, double b){
+    d++;
+    d = f3(d, b);
+    return d;
 }
 
-int fun1(int a, double b){
-    a++;
-    a = fun2(a, b);
-    return a;
+int fun1(int d, double b){
+    d++;
+    d = fun2(d, b);
+    return d;
 }
