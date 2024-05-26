@@ -2,22 +2,21 @@
 #include "returnNumber.h"
 #include "returnPrivate.h"
 #include "returnException.h"
+#include "main.h"
 
 int main() {
-    int day = 15;
-    int one = return_1(day);
-    int two = return_2(day, day);
-    int three = return_3(day);
-    std::cout << one+two+three;
+    setlocale(LC_ALL, "RU");
+    unsigned x;
+    std:: cout << "Введите x: ";
+    std:: cin >> x;
+    exponentiation(x);
     //1
     std:: cout << std:: endl;
-
-    int n = 13, m = -4, a;
+    int n = -13, m = 3, a;
     a = returnPrivate(n, m);
-    std::cout << a << std::endl;
+    std::cout << a;
     //2
     std:: cout << std:: endl;
-
     int d=-6;
     double b = 0;
     try{
@@ -34,5 +33,4 @@ int main() {
     }
     //3
     return 0;
-    
 }

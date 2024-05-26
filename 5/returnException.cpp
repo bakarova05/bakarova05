@@ -31,18 +31,14 @@ int f3(int d, double b){
     return d;
 }
 
-int f1(int d, double b)
-{
-    return 0;
-}
-int fun2(int d, double b){
+int f2(int d, double b){
     d++;
     d = f3(d, b);
     return d;
 }
 
-int fun1(int d, double b){
+int f1(int d, double b){
     d++;
-    d = fun2(d, b);
+    d = f2(d, b);
     return d;
 }
