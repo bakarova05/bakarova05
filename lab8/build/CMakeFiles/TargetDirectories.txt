@@ -1,0 +1,3 @@
+C:/lab8/build/CMakeFiles/voting.dir
+C:/lab8/build/CMakeFiles/edit_cache.dir
+C:/lab8/build/CMakeFiles/rebuild_cache.dir

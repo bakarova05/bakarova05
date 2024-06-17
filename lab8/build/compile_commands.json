@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/lab8/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\voting.dir\\f1.cpp.obj -c C:\\lab8\\f1.cpp",
+  "file": "C:\\lab8\\f1.cpp",
+  "output": "CMakeFiles\\voting.dir\\f1.cpp.obj"
+},
+{
+  "directory": "C:/lab8/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\voting.dir\\Hashf1.cpp.obj -c C:\\lab8\\Hashf1.cpp",
+  "file": "C:\\lab8\\Hashf1.cpp",
+  "output": "CMakeFiles\\voting.dir\\Hashf1.cpp.obj"
+}
+]
